@@ -2,19 +2,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=26&pause=900&color=9BBC0F&center=true&vCenter=true&width=850&height=90&lines=A+wild+developer+appeared%21;TECHDEX+-+HADESXZC;Gotta+build+%27em+all..." alt="A wild developer appeared!" />
 
-</div>
-
-```
- ╔════════════════════════════════════════╗
- ║  A WILD DEVELOPER APPEARED!            ║
- ║                                        ║
- ║   > FIGHT      > TECHDEX               ║
- ║   > STATS      > CONNECT               ║
- ╚════════════════════════════════════════╝
-```
-
-<div align="center">
-
 **`FULL-STACK DEVELOPER`** &nbsp;·&nbsp; **`LV.99`** &nbsp;·&nbsp; **`TYPE: BUILDER`**
 
 <img src="https://komarev.com/ghpvc/?username=Hadesxzc&label=TRAINERS%20ENCOUNTERED&color=9BBC0F&labelColor=0F380F&style=for-the-badge" alt="profile views" />
