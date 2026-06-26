@@ -1,99 +1,117 @@
+<!-- ====================== HEADER ====================== -->
 <div align="center">
 
-# ⚡ A Wild Developer Appeared! ⚡
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,50:4B0082,100:000000&height=200&section=header&text=PLAYER%201%3A%20HADESXZC&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=%E2%96%B6%20PRESS%20START%20TO%20CONTINUE&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header"/>
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="120" alt="Pikachu"/>
+<!-- Typing animation -->
+<a href="https://github.com/Hadesxzc">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=700&height=60&lines=INSERT+COIN...+%F0%9F%AA%99;LOADING+DEVELOPER.EXE...;BUILDING+THINGS+THAT+DIDN'T+EXIST+YESTERDAY" alt="Typing SVG" />
+</a>
 
-```
-        _________________________________
-       |  TRAINER: Hadesxzc              |
-       |  CLASS: Code Wrangler           |
-       |  BADGES: 5/8                    |
-       |  PARTNER: Pikachu  Lv.99        |
-       |_________________________________|
-```
+<br/>
 
-![Pokémon](https://img.shields.io/badge/Gotta%20Code%20'Em%20All-FFCB05?style=for-the-badge&logo=pokemon&logoColor=2A75BB)
+<!-- Profile views + status badges -->
+<img src="https://komarev.com/ghpvc/?username=Hadesxzc&label=PLAYERS+ENTERED&color=8a2be2&style=for-the-badge" alt="profile views"/>
+<img src="https://img.shields.io/badge/STATUS-ALWAYS%20SHIPPING-9400D3?style=for-the-badge" alt="status"/>
+<img src="https://img.shields.io/badge/MODE-INFINITE%20LEARNING-4B0082?style=for-the-badge" alt="mode"/>
 
 </div>
 
----
+<!-- ====================== ABOUT ====================== -->
+## 🕹️ `> LOAD PLAYER_BIO.txt`
 
-## 🎮 Trainer Profile
+```ansi
+┌─[ HADESXZC ]──────────────────────────────────────────────┐
+│                                                            │
+│   CLASS .......... Full-Stack Code Wrangler                │
+│   QUEST .......... Building things that didn't exist       │
+│                    yesterday                               │
+│   SPECIAL MOVE ... I write code that works (sometimes)     │
+│   PASSIVE ........ Always learning. Always shipping.       │
+│                                                            │
+└────────────────────────────────────────────────────────────┘
+```
 
-> *"To be the very best, like no one ever was... to debug them is my real test!"*
-
-🧠 **Building things that didn't exist yesterday** — like a Pokédex entry waiting to be discovered.<br>
-💻 **My Party:** `Python` · `React` · `Java` · `C#`<br>
-🔧 **It's super effective!** I write code that works. (Sometimes it's not very effective.)<br>
-🌱 **Always leveling up.** Always shipping. Gotta evolve 'em all.
-
----
-
-## 🔥💧🌿 Choose Your Starter!
+<!-- ====================== TECH STACK ====================== -->
+## 🎮 `> INVENTORY.dat` — Tech Stack
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" width="90" alt="Bulbasaur"/><br/>
-      <b>#001 BULBASAUR</b><br/>
-      <sub>🌿 Grass · Backend roots</sub>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" width="90" alt="Charmander"/><br/>
-      <b>#004 CHARMANDER</b><br/>
-      <sub>🔥 Fire · Ships hot fixes</sub>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" width="90" alt="Squirtle"/><br/>
-      <b>#007 SQUIRTLE</b><br/>
-      <sub>💧 Water · Cool under pressure</sub>
-    </td>
-  </tr>
-</table>
+#### ⚔️ Languages
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+#### 🛡️ Frameworks & Libraries
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+#### 🗝️ Data & Cloud
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+#### 🧰 Tools
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 </div>
 
----
-
-## 🎒 Tech Stack — My Pokémon Party
-
-> *Choose your starter, then catch the rest!*
-
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-
----
-
-## 📊 Pokédex Stats — Gym Leader Record
+<!-- ====================== STATS ====================== -->
+## 📊 `> HIGH_SCORES.sav` — GitHub Stats
 
 <div align="center">
 
-![](https://github-readme-stats.shion.dev/api?username=Hadesxzc&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Hadesxzc&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Hadesxzc&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+<img height="180em" src="https://github-readme-stats.shion.dev/api?username=Hadesxzc&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=a855f7&icon_color=9400d3&text_color=ffffff"/>
+<img height="180em" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Hadesxzc&theme=radical&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=0d1117&title_color=a855f7&text_color=ffffff"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=Hadesxzc&theme=radical&hide_border=true&background=0d1117&ring=a855f7&fire=9400d3&currStreakLabel=a855f7" alt="streak"/>
 
 </div>
 
----
+<!-- ====================== ACHIEVEMENTS ====================== -->
+## 🏆 `> ACHIEVEMENTS_UNLOCKED`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="60" alt="Pikachu"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" width="60" alt="Bulbasaur"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" width="60" alt="Charmander"/>
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" width="60" alt="Squirtle"/>
+![Polyglot](https://img.shields.io/badge/🎖️_POLYGLOT-4_Languages_Mastered-9400D3?style=for-the-badge)
+![Night Owl](https://img.shields.io/badge/🦉_NIGHT_OWL-Commits_After_Midnight-8A2BE2?style=for-the-badge)
+![Bug Slayer](https://img.shields.io/badge/🐛_BUG_SLAYER-It_Works_Now-4B0082?style=for-the-badge)
 
-### 🕹️ A message from the Professor
+![Full Stack](https://img.shields.io/badge/⚡_FULL_STACK-Front_to_Back-9400D3?style=for-the-badge)
+![Shipper](https://img.shields.io/badge/🚀_SHIPPER-Always_Deploying-8A2BE2?style=for-the-badge)
+![Learner](https://img.shields.io/badge/📚_XP_GRINDER-Never_Stops_Leveling-4B0082?style=for-the-badge)
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+</div>
+
+<!-- ====================== ACTIVITY GRAPH ====================== -->
+## 📈 `> XP_GRAPH.log` — Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hadesxzc&theme=react-dark&bg_color=0d1117&color=a855f7&line=9400d3&point=ffffff&hide_border=true&area=true" width="100%" alt="activity graph"/>
+
+</div>
+
+<!-- ====================== CONTRIBUTION SNAKE ====================== -->
+## 🐍 `> SNAKE.exe` — Eating My Commits
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Hadesxzc/Hadesxzc/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%"/>
+
+</div>
+
+<!-- ====================== FOOTER ====================== -->
+<div align="center">
+
+### 🪙 `> CREDITS`
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="quote"/>
 
 ```
-> Your very own POKéMON legend is about to unfold!
-> A world of CODE awaits. Let's go!  [ PRESS START ]
+╔══════════════════════════════════════════════════╗
+║   THANKS FOR PLAYING — INSERT COIN TO CONTINUE     ║
+║          ⭐ GAME OVER? NEVER. ⭐                    ║
+╚══════════════════════════════════════════════════╝
 ```
 
-⭐ *Thanks for visiting my route — catch you later, Trainer!* ⭐
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:4B0082,100:8A2BE2&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>
