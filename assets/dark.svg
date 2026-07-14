@@ -31,71 +31,106 @@
 <text x="290" y="42" font-family="'Courier New',monospace" font-size="10" fill="#f0e6d3">WORLD</text>
 <text x="350" y="42" font-family="'Courier New',monospace" font-size="10" fill="#d4a017">1-1</text>
 <text x="390" y="42" font-family="'Courier New',monospace" font-size="10" fill="#f0e6d3">TIME</text>
-<!-- Mario sprite — muted palette -->
-<g transform="translate(155,72)">
-  <!-- hat row 1 -->
-  <rect x="28" y="0"  width="12" height="12" fill="#8b2020"/>
-  <rect x="40" y="0"  width="12" height="12" fill="#8b2020"/>
-  <rect x="52" y="0"  width="12" height="12" fill="#8b2020"/>
-  <rect x="64" y="0"  width="12" height="12" fill="#8b2020"/>
-  <rect x="76" y="0"  width="12" height="12" fill="#8b2020"/>
-  <!-- hat row 2 -->
-  <rect x="16" y="12" width="12" height="12" fill="#8b2020"/>
-  <rect x="28" y="12" width="12" height="12" fill="#8b2020"/>
-  <rect x="40" y="12" width="12" height="12" fill="#7a4030"/>
-  <rect x="52" y="12" width="12" height="12" fill="#7a4030"/>
-  <rect x="64" y="12" width="12" height="12" fill="#7a4030"/>
-  <rect x="76" y="12" width="12" height="12" fill="#8b2020"/>
-  <rect x="88" y="12" width="12" height="12" fill="#8b2020"/>
-  <rect x="100" y="12" width="12" height="12" fill="#8b2020"/>
-  <!-- face -->
-  <rect x="16" y="24" width="12" height="12" fill="#7a4030"/>
-  <rect x="28" y="24" width="12" height="12" fill="#c8906a"/>
-  <rect x="40" y="24" width="12" height="12" fill="#7a4030"/>
-  <rect x="52" y="24" width="12" height="12" fill="#c8906a"/>
-  <rect x="64" y="24" width="12" height="12" fill="#c8906a"/>
-  <rect x="76" y="24" width="12" height="12" fill="#7a4030"/>
-  <rect x="88" y="24" width="12" height="12" fill="#c8906a"/>
-  <rect x="100" y="24" width="12" height="12" fill="#c8906a"/>
-  <rect x="112" y="24" width="12" height="12" fill="#c8906a"/>
-  <!-- eyes -->
-  <rect x="16" y="36" width="12" height="12" fill="#c8906a"/>
-  <rect x="28" y="36" width="12" height="12" fill="#1a1a2e"/>
-  <rect x="40" y="36" width="12" height="12" fill="#c8906a"/>
-  <rect x="52" y="36" width="12" height="12" fill="#c8906a"/>
-  <rect x="64" y="36" width="12" height="12" fill="#1a1a2e"/>
-  <rect x="76" y="36" width="12" height="12" fill="#c8906a"/>
-  <!-- mustache -->
-  <rect x="28" y="48" width="12" height="12" fill="#7a4030"/>
-  <rect x="40" y="48" width="12" height="12" fill="#7a4030"/>
-  <rect x="52" y="48" width="12" height="12" fill="#7a4030"/>
-  <rect x="64" y="48" width="12" height="12" fill="#7a4030"/>
-  <rect x="76" y="48" width="12" height="12" fill="#7a4030"/>
+<!-- Mario sprite — NES accurate, 10px per pixel, centered ~x=155 y=68 -->
+<!-- Colors: R=#c0392b  Skin=#e8a87c  Brown=#8b4513  Blue=#2a4080  Black=#1a1a2e -->
+<!-- FRAME 1: arm down (visible first half of cycle) -->
+<g transform="translate(148,68)">
+  <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.5;1" dur="1.6s" repeatCount="indefinite"/>
+  <!-- row0: hat top -->
+  <rect x="30" y="0"  width="40" height="10" fill="#c0392b"/>
+  <!-- row1: hat brim -->
+  <rect x="10" y="10" width="70" height="10" fill="#c0392b"/>
+  <!-- row2: skin+brown hair under brim -->
+  <rect x="10" y="20" width="10" height="10" fill="#8b4513"/>
+  <rect x="20" y="20" width="30" height="10" fill="#e8a87c"/>
+  <rect x="50" y="20" width="10" height="10" fill="#8b4513"/>
+  <rect x="60" y="20" width="20" height="10" fill="#e8a87c"/>
+  <rect x="80" y="20" width="10" height="10" fill="#e8a87c"/>
+  <!-- row3: eyes -->
+  <rect x="10" y="30" width="10" height="10" fill="#e8a87c"/>
+  <rect x="20" y="30" width="10" height="10" fill="#1a1a2e"/>
+  <rect x="30" y="30" width="10" height="10" fill="#e8a87c"/>
+  <rect x="40" y="30" width="10" height="10" fill="#e8a87c"/>
+  <rect x="50" y="30" width="10" height="10" fill="#1a1a2e"/>
+  <rect x="60" y="30" width="30" height="10" fill="#e8a87c"/>
+  <!-- row4: nose -->
+  <rect x="20" y="40" width="50" height="10" fill="#e8a87c"/>
+  <!-- row5: mustache -->
+  <rect x="10" y="50" width="20" height="10" fill="#8b4513"/>
+  <rect x="40" y="50" width="30" height="10" fill="#8b4513"/>
+  <!-- row6: body/shirt -->
+  <rect x="0"  y="60" width="10" height="10" fill="#c0392b"/>
+  <rect x="10" y="60" width="60" height="10" fill="#2a4080"/>
+  <rect x="70" y="60" width="20" height="10" fill="#c0392b"/>
+  <!-- row7: body with hands -->
+  <rect x="0"  y="70" width="10" height="10" fill="#e8a87c"/><!-- left hand down -->
+  <rect x="10" y="70" width="60" height="10" fill="#2a4080"/>
+  <rect x="70" y="70" width="10" height="10" fill="#c0392b"/>
+  <rect x="80" y="70" width="10" height="10" fill="#e8a87c"/><!-- right hand down -->
+  <!-- row8: belt+buckle -->
+  <rect x="10" y="80" width="10" height="10" fill="#2a4080"/>
+  <rect x="20" y="80" width="10" height="10" fill="#d4a017"/><!-- buckle -->
+  <rect x="30" y="80" width="20" height="10" fill="#2a4080"/>
+  <rect x="50" y="80" width="10" height="10" fill="#d4a017"/>
+  <rect x="60" y="80" width="10" height="10" fill="#2a4080"/>
+  <!-- row9: legs -->
+  <rect x="10" y="90" width="20" height="10" fill="#8b4513"/>
+  <rect x="30" y="90" width="10" height="10" fill="#2a4080"/>
+  <rect x="40" y="90" width="10" height="10" fill="#8b4513"/>
+  <rect x="50" y="90" width="20" height="10" fill="#8b4513"/>
+  <!-- row10: legs lower -->
+  <rect x="10" y="100" width="20" height="10" fill="#8b4513"/>
+  <rect x="50" y="100" width="20" height="10" fill="#8b4513"/>
+  <!-- row11: boots -->
+  <rect x="0"  y="110" width="30" height="10" fill="#c0392b"/>
+  <rect x="40" y="110" width="30" height="10" fill="#c0392b"/>
+</g>
+
+<!-- FRAME 2: arm raised / waving (visible second half) -->
+<g transform="translate(148,68)">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.45;0.5;1" dur="1.6s" repeatCount="indefinite"/>
+  <!-- same body, different right arm position -->
+  <rect x="30" y="0"  width="40" height="10" fill="#c0392b"/>
+  <rect x="10" y="10" width="70" height="10" fill="#c0392b"/>
+  <rect x="10" y="20" width="10" height="10" fill="#8b4513"/>
+  <rect x="20" y="20" width="30" height="10" fill="#e8a87c"/>
+  <rect x="50" y="20" width="10" height="10" fill="#8b4513"/>
+  <rect x="60" y="20" width="20" height="10" fill="#e8a87c"/>
+  <rect x="80" y="20" width="10" height="10" fill="#e8a87c"/>
+  <rect x="10" y="30" width="10" height="10" fill="#e8a87c"/>
+  <rect x="20" y="30" width="10" height="10" fill="#1a1a2e"/>
+  <rect x="30" y="30" width="10" height="10" fill="#e8a87c"/>
+  <rect x="40" y="30" width="10" height="10" fill="#e8a87c"/>
+  <rect x="50" y="30" width="10" height="10" fill="#1a1a2e"/>
+  <rect x="60" y="30" width="30" height="10" fill="#e8a87c"/>
+  <rect x="20" y="40" width="50" height="10" fill="#e8a87c"/>
+  <rect x="10" y="50" width="20" height="10" fill="#8b4513"/>
+  <rect x="40" y="50" width="30" height="10" fill="#8b4513"/>
   <!-- body -->
-  <rect x="16" y="60" width="12" height="12" fill="#8b2020"/>
-  <rect x="28" y="60" width="12" height="12" fill="#2a4080"/>
-  <rect x="40" y="60" width="12" height="12" fill="#2a4080"/>
-  <rect x="52" y="60" width="12" height="12" fill="#2a4080"/>
-  <rect x="64" y="60" width="12" height="12" fill="#2a4080"/>
-  <rect x="76" y="60" width="12" height="12" fill="#2a4080"/>
-  <rect x="88" y="60" width="12" height="12" fill="#8b2020"/>
-  <!-- legs -->
-  <rect x="4"  y="72" width="12" height="12" fill="#2a4080"/>
-  <rect x="16" y="72" width="12" height="12" fill="#2a4080"/>
-  <rect x="28" y="72" width="12" height="12" fill="#2a4080"/>
-  <rect x="40" y="72" width="12" height="12" fill="#c8906a"/>
-  <rect x="52" y="72" width="12" height="12" fill="#2a4080"/>
-  <rect x="64" y="72" width="12" height="12" fill="#c8906a"/>
-  <rect x="76" y="72" width="12" height="12" fill="#2a4080"/>
-  <rect x="88" y="72" width="12" height="12" fill="#2a4080"/>
-  <rect x="100" y="72" width="12" height="12" fill="#2a4080"/>
-  <!-- boots -->
-  <rect x="28" y="84" width="12" height="12" fill="#8b2020"/>
-  <rect x="40" y="84" width="12" height="12" fill="#8b2020"/>
-  <rect x="52" y="84" width="12" height="12" fill="#8b2020"/>
-  <rect x="76" y="84" width="12" height="12" fill="#8b2020"/>
-  <rect x="88" y="84" width="12" height="12" fill="#8b2020"/>
-  <rect x="100" y="84" width="12" height="12" fill="#8b2020"/>
+  <rect x="0"  y="60" width="10" height="10" fill="#c0392b"/>
+  <rect x="10" y="60" width="60" height="10" fill="#2a4080"/>
+  <rect x="70" y="60" width="20" height="10" fill="#c0392b"/>
+  <!-- row7: right arm raised UP -->
+  <rect x="80" y="50" width="10" height="10" fill="#e8a87c"/><!-- hand raised -->
+  <rect x="90" y="40" width="10" height="10" fill="#e8a87c"/><!-- hand higher -->
+  <rect x="0"  y="70" width="10" height="10" fill="#e8a87c"/><!-- left hand still down -->
+  <rect x="10" y="70" width="60" height="10" fill="#2a4080"/>
+  <rect x="70" y="70" width="10" height="10" fill="#c0392b"/>
+  <!-- belt -->
+  <rect x="10" y="80" width="10" height="10" fill="#2a4080"/>
+  <rect x="20" y="80" width="10" height="10" fill="#d4a017"/>
+  <rect x="30" y="80" width="20" height="10" fill="#2a4080"/>
+  <rect x="50" y="80" width="10" height="10" fill="#d4a017"/>
+  <rect x="60" y="80" width="10" height="10" fill="#2a4080"/>
+  <!-- legs + boots same -->
+  <rect x="10" y="90" width="20" height="10" fill="#8b4513"/>
+  <rect x="30" y="90" width="10" height="10" fill="#2a4080"/>
+  <rect x="40" y="90" width="10" height="10" fill="#8b4513"/>
+  <rect x="50" y="90" width="20" height="10" fill="#8b4513"/>
+  <rect x="10" y="100" width="20" height="10" fill="#8b4513"/>
+  <rect x="50" y="100" width="20" height="10" fill="#8b4513"/>
+  <rect x="0"  y="110" width="30" height="10" fill="#c0392b"/>
+  <rect x="40" y="110" width="30" height="10" fill="#c0392b"/>
 </g>
 <!-- Left panel info -->
 <rect x="40" y="215" width="380" height="2" fill="#d4a017" opacity=".6"/>
