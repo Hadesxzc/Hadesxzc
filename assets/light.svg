@@ -183,6 +183,6 @@
 <rect x="540" y="447" width="180" height="12" fill="#40b040" rx="1"/>
 </g>
 <rect x="486" y="470" width="640" height="2" fill="#e03030" opacity=".3"/>
-<text x="810" y="500" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#e03030" letter-spacing="1"><animate attributeName="opacity" values="1;0;1" dur="1.4s" repeatCount="indefinite"/>What will HADESZXC do?</text>
+
 </g>
 </svg>
