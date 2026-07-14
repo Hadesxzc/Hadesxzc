@@ -1,251 +1,238 @@
 <svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hadeszxc — 8-bit Mario profile banner">
-<defs>
-  <clipPath id="canvas"><rect width="1180" height="610" rx="4"/></clipPath>
-</defs>
+<defs><clipPath id="canvas"><rect width="1180" height="610" rx="4"/></clipPath></defs>
 <g clip-path="url(#canvas)">
-<!-- Sky - bright day -->
-<rect width="1180" height="610" fill="#92C8FF"/>
-<!-- Moving cloud 1 -->
-<g><animateTransform attributeName="transform" type="translate" values="0 0;400 0;0 0" dur="45s" repeatCount="indefinite"/>
-<rect x="60" y="70" width="16" height="16" fill="white"/>
-<rect x="76" y="70" width="16" height="16" fill="white"/>
-<rect x="44" y="86" width="16" height="16" fill="white"/>
-<rect x="60" y="86" width="48" height="16" fill="white"/>
-<rect x="108" y="86" width="16" height="16" fill="white"/>
-<rect x="44" y="102" width="80" height="12" fill="white"/>
+<rect width="1180" height="610" fill="#7aa8d4"/>
+<g opacity=".55"><animateTransform attributeName="transform" type="translate" values="0 0;280 0;0 0" dur="60s" repeatCount="indefinite"/>
+<rect x="50" y="65" width="14" height="14" fill="white"/><rect x="64" y="65" width="14" height="14" fill="white"/>
+<rect x="36" y="79" width="14" height="14" fill="white"/><rect x="50" y="79" width="42" height="14" fill="white"/>
+<rect x="92" y="79" width="14" height="14" fill="white"/><rect x="36" y="93" width="70" height="10" fill="white"/>
 </g>
-<!-- Moving cloud 2 -->
-<g><animateTransform attributeName="transform" type="translate" values="0 0;-350 0;0 0" dur="55s" repeatCount="indefinite"/>
-<rect x="750" y="55" width="16" height="16" fill="white"/>
-<rect x="766" y="55" width="16" height="16" fill="white"/>
-<rect x="734" y="71" width="16" height="16" fill="white"/>
-<rect x="750" y="71" width="48" height="16" fill="white"/>
-<rect x="798" y="71" width="16" height="16" fill="white"/>
-<rect x="734" y="87" width="80" height="12" fill="white"/>
+<g opacity=".5"><animateTransform attributeName="transform" type="translate" values="0 0;-200 0;0 0" dur="80s" repeatCount="indefinite"/>
+<rect x="740" y="50" width="14" height="14" fill="white"/><rect x="754" y="50" width="14" height="14" fill="white"/>
+<rect x="726" y="64" width="14" height="14" fill="white"/><rect x="740" y="64" width="42" height="14" fill="white"/>
+<rect x="782" y="64" width="14" height="14" fill="white"/><rect x="726" y="78" width="70" height="10" fill="white"/>
 </g>
-<!-- Ground -->
-<rect x="0" y="562" width="1180" height="48" fill="#E07000"/>
-<rect x="0" y="562" width="1180" height="4" fill="#C85000"/>
-<rect x="0" y="566" width="1180" height="2" fill="#A04000" opacity=".5"/>
-<!-- LEFT PANEL - light: white bg with blue border -->
-<rect x="20" y="20" width="420" height="535" fill="#FFFDE7" stroke="#E40000" stroke-width="4"/>
-<rect x="20" y="20" width="420" height="36" fill="#E40000"/>
-<rect x="20" y="56" width="420" height="2" fill="#A00000"/>
-<text x="36" y="44" font-family="'Courier New',monospace" font-size="11" font-weight="bold" fill="#FCBC3C" letter-spacing="1">MARIO</text>
-<text x="120" y="44" font-family="'Courier New',monospace" font-size="11" font-weight="bold" fill="white" letter-spacing="1">000200</text>
-<rect x="220" y="30" width="10" height="10" fill="#FCBC3C"/>
-<text x="234" y="44" font-family="'Courier New',monospace" font-size="11" font-weight="bold" fill="white">x99</text>
-<text x="300" y="44" font-family="'Courier New',monospace" font-size="11" font-weight="bold" fill="white" letter-spacing="1">WORLD</text>
-<text x="360" y="44" font-family="'Courier New',monospace" font-size="11" font-weight="bold" fill="#FCBC3C">1-1</text>
-<!-- Mario pixel art -->
-<rect x="174" y="80" width="14" height="14" fill="#E40000"/>
-<rect x="188" y="80" width="14" height="14" fill="#E40000"/>
-<rect x="202" y="80" width="14" height="14" fill="#E40000"/>
-<rect x="216" y="80" width="14" height="14" fill="#E40000"/>
-<rect x="230" y="80" width="14" height="14" fill="#E40000"/>
-<rect x="160" y="94" width="14" height="14" fill="#E40000"/>
-<rect x="174" y="94" width="14" height="14" fill="#E40000"/>
-<rect x="188" y="94" width="14" height="14" fill="#A0522D"/>
-<rect x="202" y="94" width="14" height="14" fill="#A0522D"/>
-<rect x="216" y="94" width="14" height="14" fill="#A0522D"/>
-<rect x="230" y="94" width="14" height="14" fill="#E40000"/>
-<rect x="244" y="94" width="14" height="14" fill="#E40000"/>
-<rect x="258" y="94" width="14" height="14" fill="#E40000"/>
-<rect x="160" y="108" width="14" height="14" fill="#A0522D"/>
-<rect x="174" y="108" width="14" height="14" fill="#FFCC99"/>
-<rect x="188" y="108" width="14" height="14" fill="#A0522D"/>
-<rect x="202" y="108" width="14" height="14" fill="#FFCC99"/>
-<rect x="216" y="108" width="14" height="14" fill="#FFCC99"/>
-<rect x="230" y="108" width="14" height="14" fill="#A0522D"/>
-<rect x="244" y="108" width="14" height="14" fill="#FFCC99"/>
-<rect x="258" y="108" width="14" height="14" fill="#FFCC99"/>
-<rect x="272" y="108" width="14" height="14" fill="#FFCC99"/>
-<rect x="160" y="122" width="14" height="14" fill="#FFCC99"/>
-<rect x="174" y="122" width="14" height="14" fill="#000000"/>
-<rect x="188" y="122" width="14" height="14" fill="#FFCC99"/>
-<rect x="202" y="122" width="14" height="14" fill="#FFCC99"/>
-<rect x="216" y="122" width="14" height="14" fill="#000000"/>
-<rect x="230" y="122" width="14" height="14" fill="#FFCC99"/>
-<rect x="244" y="122" width="14" height="14" fill="#FFCC99"/>
-<rect x="258" y="122" width="14" height="14" fill="#FFCC99"/>
-<rect x="174" y="136" width="14" height="14" fill="#A0522D"/>
-<rect x="188" y="136" width="14" height="14" fill="#A0522D"/>
-<rect x="202" y="136" width="14" height="14" fill="#A0522D"/>
-<rect x="216" y="136" width="14" height="14" fill="#A0522D"/>
-<rect x="230" y="136" width="14" height="14" fill="#A0522D"/>
-<rect x="160" y="150" width="14" height="14" fill="#E40000"/>
-<rect x="174" y="150" width="14" height="14" fill="#4444FF"/>
-<rect x="188" y="150" width="14" height="14" fill="#4444FF"/>
-<rect x="202" y="150" width="14" height="14" fill="#4444FF"/>
-<rect x="216" y="150" width="14" height="14" fill="#4444FF"/>
-<rect x="230" y="150" width="14" height="14" fill="#4444FF"/>
-<rect x="244" y="150" width="14" height="14" fill="#E40000"/>
-<rect x="146" y="164" width="14" height="14" fill="#4444FF"/>
-<rect x="160" y="164" width="14" height="14" fill="#4444FF"/>
-<rect x="174" y="164" width="14" height="14" fill="#4444FF"/>
-<rect x="188" y="164" width="14" height="14" fill="#FFCC99"/>
-<rect x="202" y="164" width="14" height="14" fill="#4444FF"/>
-<rect x="216" y="164" width="14" height="14" fill="#FFCC99"/>
-<rect x="230" y="164" width="14" height="14" fill="#4444FF"/>
-<rect x="244" y="164" width="14" height="14" fill="#4444FF"/>
-<rect x="258" y="164" width="14" height="14" fill="#4444FF"/>
-<rect x="174" y="178" width="14" height="14" fill="#E40000"/>
-<rect x="188" y="178" width="14" height="14" fill="#E40000"/>
-<rect x="202" y="178" width="14" height="14" fill="#E40000"/>
-<rect x="230" y="178" width="14" height="14" fill="#E40000"/>
-<rect x="244" y="178" width="14" height="14" fill="#E40000"/>
-<rect x="258" y="178" width="14" height="14" fill="#E40000"/>
-<!-- Left panel info - light theme uses dark text -->
-<rect x="40" y="210" width="380" height="2" fill="#E40000"/>
-<text x="230" y="235" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="bold" fill="#E40000" letter-spacing="2">PLAYER 1</text>
-<text x="230" y="258" text-anchor="middle" font-family="'Courier New',monospace" font-size="16" font-weight="bold" fill="#000080" letter-spacing="3">HADESZXC</text>
-<rect x="40" y="268" width="380" height="2" fill="#E40000"/>
-<text x="56" y="298" font-family="'Courier New',monospace" font-size="10" fill="#E40000">CLASS</text>
-<text x="180" y="298" font-family="'Courier New',monospace" font-size="10" fill="#000080">Creative Engineer</text>
-<text x="56" y="320" font-family="'Courier New',monospace" font-size="10" fill="#E40000">WORLD</text>
-<text x="180" y="320" font-family="'Courier New',monospace" font-size="10" fill="#000080">Tuguegarao, Cagayan</text>
-<text x="56" y="342" font-family="'Courier New',monospace" font-size="10" fill="#E40000">MAIL</text>
-<text x="180" y="342" font-family="'Courier New',monospace" font-size="10" fill="#000080">jomerignacio04@gmail</text>
-<rect x="40" y="356" width="380" height="2" fill="#E40000"/>
-<text x="56" y="378" font-family="'Courier New',monospace" font-size="10" fill="#E40000">HP</text>
-<rect x="100" y="366" width="280" height="14" fill="#ccc"/>
-<rect x="100" y="366" width="252" height="14" fill="#E40000"/>
-<text x="56" y="400" font-family="'Courier New',monospace" font-size="10" fill="#E40000">XP</text>
-<rect x="100" y="388" width="280" height="14" fill="#ccc"/>
-<rect x="100" y="388" width="210" height="14" fill="#00AA00"/>
-<text x="56" y="424" font-family="'Courier New',monospace" font-size="10" fill="#E40000">LIVES</text>
-<text x="130" y="424" font-family="'Courier New',monospace" font-size="14" fill="#E40000">♥ ♥ ♥</text>
-<rect x="40" y="434" width="380" height="2" fill="#E40000"/>
-<!-- Coin blocks -->
-<g><animate attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="0.5s" begin="2s" repeatCount="indefinite" calcMode="discrete"/>
-<rect x="56" y="460" width="32" height="32" fill="#FCBC3C" stroke="#A07000" stroke-width="2"/>
-<text x="72" y="482" text-anchor="middle" font-family="'Courier New',monospace" font-size="16" font-weight="bold" fill="#A07000">?</text>
+<rect x="0" y="562" width="1180" height="48" fill="#5a3a18"/>
+<rect x="0" y="562" width="1180" height="4" fill="#3d2010"/>
+<rect x="0" y="566" width="1180" height="2" fill="#3d2010" opacity=".5"/>
+<!-- LEFT PANEL -->
+<rect x="20" y="20" width="420" height="535" fill="#f5f0e8" stroke="#8b2020" stroke-width="3"/>
+<rect x="20" y="20" width="420" height="34" fill="#8b2020"/>
+<rect x="20" y="54" width="420" height="2" fill="#6b1010"/>
+<text x="36" y="42" font-family="'Courier New',monospace" font-size="10" font-weight="bold" fill="#d4a017">MARIO</text>
+<text x="110" y="42" font-family="'Courier New',monospace" font-size="10" fill="#f0e6d3">000200</text>
+<rect x="210" y="29" width="9" height="9" fill="#d4a017" opacity=".9"/>
+<text x="222" y="42" font-family="'Courier New',monospace" font-size="10" fill="#f0e6d3">x99</text>
+<text x="290" y="42" font-family="'Courier New',monospace" font-size="10" fill="#f0e6d3">WORLD</text>
+<text x="350" y="42" font-family="'Courier New',monospace" font-size="10" fill="#d4a017">1-1</text>
+<!-- Mario sprite same as dark -->
+<g transform="translate(155,72)">
+  <rect x="28" y="0"  width="12" height="12" fill="#8b2020"/>
+  <rect x="40" y="0"  width="12" height="12" fill="#8b2020"/>
+  <rect x="52" y="0"  width="12" height="12" fill="#8b2020"/>
+  <rect x="64" y="0"  width="12" height="12" fill="#8b2020"/>
+  <rect x="76" y="0"  width="12" height="12" fill="#8b2020"/>
+  <rect x="16" y="12" width="12" height="12" fill="#8b2020"/>
+  <rect x="28" y="12" width="12" height="12" fill="#8b2020"/>
+  <rect x="40" y="12" width="12" height="12" fill="#7a4030"/>
+  <rect x="52" y="12" width="12" height="12" fill="#7a4030"/>
+  <rect x="64" y="12" width="12" height="12" fill="#7a4030"/>
+  <rect x="76" y="12" width="12" height="12" fill="#8b2020"/>
+  <rect x="88" y="12" width="12" height="12" fill="#8b2020"/>
+  <rect x="100" y="12" width="12" height="12" fill="#8b2020"/>
+  <rect x="16" y="24" width="12" height="12" fill="#7a4030"/>
+  <rect x="28" y="24" width="12" height="12" fill="#c8906a"/>
+  <rect x="40" y="24" width="12" height="12" fill="#7a4030"/>
+  <rect x="52" y="24" width="12" height="12" fill="#c8906a"/>
+  <rect x="64" y="24" width="12" height="12" fill="#c8906a"/>
+  <rect x="76" y="24" width="12" height="12" fill="#7a4030"/>
+  <rect x="88" y="24" width="12" height="12" fill="#c8906a"/>
+  <rect x="100" y="24" width="12" height="12" fill="#c8906a"/>
+  <rect x="112" y="24" width="12" height="12" fill="#c8906a"/>
+  <rect x="16" y="36" width="12" height="12" fill="#c8906a"/>
+  <rect x="28" y="36" width="12" height="12" fill="#2a1a0e"/>
+  <rect x="40" y="36" width="12" height="12" fill="#c8906a"/>
+  <rect x="52" y="36" width="12" height="12" fill="#c8906a"/>
+  <rect x="64" y="36" width="12" height="12" fill="#2a1a0e"/>
+  <rect x="76" y="36" width="12" height="12" fill="#c8906a"/>
+  <rect x="28" y="48" width="12" height="12" fill="#7a4030"/>
+  <rect x="40" y="48" width="12" height="12" fill="#7a4030"/>
+  <rect x="52" y="48" width="12" height="12" fill="#7a4030"/>
+  <rect x="64" y="48" width="12" height="12" fill="#7a4030"/>
+  <rect x="76" y="48" width="12" height="12" fill="#7a4030"/>
+  <rect x="16" y="60" width="12" height="12" fill="#8b2020"/>
+  <rect x="28" y="60" width="12" height="12" fill="#2a4080"/>
+  <rect x="40" y="60" width="12" height="12" fill="#2a4080"/>
+  <rect x="52" y="60" width="12" height="12" fill="#2a4080"/>
+  <rect x="64" y="60" width="12" height="12" fill="#2a4080"/>
+  <rect x="76" y="60" width="12" height="12" fill="#2a4080"/>
+  <rect x="88" y="60" width="12" height="12" fill="#8b2020"/>
+  <rect x="4"  y="72" width="12" height="12" fill="#2a4080"/>
+  <rect x="16" y="72" width="12" height="12" fill="#2a4080"/>
+  <rect x="28" y="72" width="12" height="12" fill="#2a4080"/>
+  <rect x="40" y="72" width="12" height="12" fill="#c8906a"/>
+  <rect x="52" y="72" width="12" height="12" fill="#2a4080"/>
+  <rect x="64" y="72" width="12" height="12" fill="#c8906a"/>
+  <rect x="76" y="72" width="12" height="12" fill="#2a4080"/>
+  <rect x="88" y="72" width="12" height="12" fill="#2a4080"/>
+  <rect x="100" y="72" width="12" height="12" fill="#2a4080"/>
+  <rect x="28" y="84" width="12" height="12" fill="#8b2020"/>
+  <rect x="40" y="84" width="12" height="12" fill="#8b2020"/>
+  <rect x="52" y="84" width="12" height="12" fill="#8b2020"/>
+  <rect x="76" y="84" width="12" height="12" fill="#8b2020"/>
+  <rect x="88" y="84" width="12" height="12" fill="#8b2020"/>
+  <rect x="100" y="84" width="12" height="12" fill="#8b2020"/>
 </g>
-<rect x="100" y="460" width="32" height="32" fill="#C85000" stroke="#A03000" stroke-width="2"/>
-<g><animate attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="0.5s" begin="3s" repeatCount="indefinite" calcMode="discrete"/>
-<rect x="144" y="460" width="32" height="32" fill="#FCBC3C" stroke="#A07000" stroke-width="2"/>
-<text x="160" y="482" text-anchor="middle" font-family="'Courier New',monospace" font-size="16" font-weight="bold" fill="#A07000">?</text>
+<rect x="40" y="215" width="380" height="2" fill="#8b2020" opacity=".5"/>
+<text x="230" y="238" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#8b2020" letter-spacing="2">PLAYER  1</text>
+<text x="230" y="260" text-anchor="middle" font-family="'Courier New',monospace" font-size="14" fill="#1a1a2e" letter-spacing="3">HADESZXC</text>
+<rect x="40" y="270" width="380" height="2" fill="#8b2020" opacity=".5"/>
+<text x="50" y="296" font-family="'Courier New',monospace" font-size="9" fill="#8b2020">CLASS</text>
+<text x="165" y="296" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">Creative Engineer</text>
+<text x="50" y="316" font-family="'Courier New',monospace" font-size="9" fill="#8b2020">WORLD</text>
+<text x="165" y="316" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">Tuguegarao, Cagayan</text>
+<text x="50" y="336" font-family="'Courier New',monospace" font-size="9" fill="#8b2020">MAIL </text>
+<text x="165" y="336" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">jomerignacio04</text>
+<text x="165" y="350" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">@gmail.com</text>
+<rect x="40" y="360" width="380" height="2" fill="#8b2020" opacity=".5"/>
+<text x="50" y="380" font-family="'Courier New',monospace" font-size="9" fill="#8b2020">HP</text>
+<rect x="90" y="368" width="290" height="13" fill="#d0c8b8" rx="2"/>
+<rect x="90" y="368" width="240" height="13" fill="#8b2020" rx="2"/>
+<text x="388" y="379" font-family="'Courier New',monospace" font-size="8" fill="#2a1a0e">82%</text>
+<text x="50" y="402" font-family="'Courier New',monospace" font-size="9" fill="#8b2020">XP</text>
+<rect x="90" y="390" width="290" height="13" fill="#d0c8b8" rx="2"/>
+<rect x="90" y="390" width="185" height="13" fill="#2a6040" rx="2"/>
+<text x="388" y="401" font-family="'Courier New',monospace" font-size="8" fill="#2a1a0e">64%</text>
+<text x="50" y="426" font-family="'Courier New',monospace" font-size="9" fill="#8b2020">LIVES</text>
+<text x="120" y="426" font-family="'Courier New',monospace" font-size="13" fill="#8b2020">♥ ♥ ♥</text>
+<rect x="40" y="436" width="380" height="2" fill="#8b2020" opacity=".5"/>
+<g><animate attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="0.6s" begin="1.5s" repeatCount="indefinite" calcMode="discrete"/>
+<rect x="50" y="458" width="30" height="30" fill="#d4a017" stroke="#8b6800" stroke-width="2" rx="2"/>
+<text x="65" y="478" text-anchor="middle" font-family="'Courier New',monospace" font-size="15" fill="#5a3800">?</text>
 </g>
-<text x="56" y="525" font-family="'Courier New',monospace" font-size="9" fill="#00AA00" letter-spacing="1">● GAME STATUS : RUNNING</text>
-<rect x="56" y="536" width="8" height="10" fill="#E40000"><animate attributeName="opacity" values="1;0" calcMode="discrete" dur="0.8s" repeatCount="indefinite"/></rect>
-<!-- RIGHT PANEL - light theme -->
-<rect x="460" y="20" width="700" height="535" fill="white" stroke="#E40000" stroke-width="4"/>
-<rect x="460" y="20" width="700" height="36" fill="#E40000"/>
-<rect x="460" y="56" width="700" height="2" fill="#A00000"/>
-<rect x="476" y="32" width="12" height="12" fill="#FF5F57"/>
-<rect x="494" y="32" width="12" height="12" fill="#FCBC3C"/>
-<rect x="512" y="32" width="12" height="12" fill="#28C840"/>
-<text x="820" y="44" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white" letter-spacing="1">hadeszxc@github ~ WORLD 1-1</text>
-<text x="486" y="98" font-family="'Courier New',monospace" font-size="22" font-weight="bold" fill="#E40000">IT'S-A ME,</text>
-<text x="486" y="126" font-family="'Courier New',monospace" font-size="22" font-weight="bold" fill="#000080">HADESZXC!</text>
-<rect x="486" y="140" width="620" height="1" fill="#E40000" opacity=".4"/>
-<text x="486" y="165" font-family="'Courier New',monospace" font-size="12" fill="#00AA00">❯ </text>
-<text x="510" y="165" font-family="'Courier New',monospace" font-size="12" fill="#0F172A">Full Stack Developer</text>
-<rect x="486" y="178" width="620" height="1" fill="#E40000" opacity=".3"/>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.5s" dur=".4s" fill="freeze"/>
-<text x="486" y="206" font-family="'Courier New',monospace" font-size="11" fill="#E40000">location</text>
-<text x="610" y="206" font-family="'Courier New',monospace" font-size="11" fill="#00AA00">▶</text>
-<text x="626" y="206" font-family="'Courier New',monospace" font-size="11" fill="#0F172A">Tuguegarao City, Cagayan</text>
+<rect x="90" y="458" width="30" height="30" fill="#5a3a18" stroke="#3d2010" stroke-width="2" rx="2"/>
+<g><animate attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="0.6s" begin="2.8s" repeatCount="indefinite" calcMode="discrete"/>
+<rect x="130" y="458" width="30" height="30" fill="#d4a017" stroke="#8b6800" stroke-width="2" rx="2"/>
+<text x="145" y="478" text-anchor="middle" font-family="'Courier New',monospace" font-size="15" fill="#5a3800">?</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.9s" dur=".4s" fill="freeze"/>
-<text x="486" y="228" font-family="'Courier New',monospace" font-size="11" fill="#E40000">education</text>
-<text x="610" y="228" font-family="'Courier New',monospace" font-size="11" fill="#00AA00">▶</text>
-<text x="626" y="228" font-family="'Courier New',monospace" font-size="11" fill="#0F172A">B.S. Computer Science</text>
+<text x="50" y="520" font-family="'Courier New',monospace" font-size="8" fill="#2a6040" letter-spacing="1">● GAME STATUS : RUNNING</text>
+<rect x="50" y="530" width="8" height="10" fill="#8b2020" opacity=".8"><animate attributeName="opacity" values=".8;0" calcMode="discrete" dur="0.8s" repeatCount="indefinite"/></rect>
+<!-- RIGHT PANEL -->
+<rect x="460" y="20" width="700" height="535" fill="#f5f0e8" stroke="#8b2020" stroke-width="3"/>
+<rect x="460" y="20" width="700" height="34" fill="#8b2020"/>
+<rect x="460" y="54" width="700" height="2" fill="#6b1010"/>
+<rect x="474" y="30" width="11" height="11" fill="#d45050" rx="2"/>
+<rect x="491" y="30" width="11" height="11" fill="#c8a030" rx="2"/>
+<rect x="508" y="30" width="11" height="11" fill="#3a8050" rx="2"/>
+<text x="810" y="42" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#f0dcc8" letter-spacing="1">hadeszxc@github ~ WORLD 1-1</text>
+<text x="486" y="94" font-family="'Courier New',monospace" font-size="20" font-weight="bold" fill="#8b2020">IT'S-A ME,</text>
+<text x="486" y="120" font-family="'Courier New',monospace" font-size="20" font-weight="bold" fill="#1a1a2e">HADESZXC!</text>
+<rect x="486" y="134" width="640" height="1" fill="#8b2020" opacity=".3"/>
+<text x="486" y="158" font-family="'Courier New',monospace" font-size="11" fill="#2a6040">❯ </text>
+<text x="508" y="158" font-family="'Courier New',monospace" font-size="11" fill="#3a2a1a">Full Stack Developer</text>
+<rect x="486" y="170" width="640" height="1" fill="#8b2020" opacity=".2"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.4s" dur=".5s" fill="freeze"/>
+<text x="486" y="196" font-family="'Courier New',monospace" font-size="10" fill="#7a6050">location</text>
+<text x="590" y="196" font-family="'Courier New',monospace" font-size="10" fill="#2a6040">▶</text>
+<text x="606" y="196" font-family="'Courier New',monospace" font-size="10" fill="#1a1a2e">Tuguegarao City, Cagayan</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.3s" dur=".4s" fill="freeze"/>
-<text x="486" y="250" font-family="'Courier New',monospace" font-size="11" fill="#E40000">focus</text>
-<text x="610" y="250" font-family="'Courier New',monospace" font-size="11" fill="#00AA00">▶</text>
-<text x="626" y="250" font-family="'Courier New',monospace" font-size="11" fill="#0F172A">Building with AI x Web</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.8s" dur=".5s" fill="freeze"/>
+<text x="486" y="216" font-family="'Courier New',monospace" font-size="10" fill="#7a6050">education</text>
+<text x="590" y="216" font-family="'Courier New',monospace" font-size="10" fill="#2a6040">▶</text>
+<text x="606" y="216" font-family="'Courier New',monospace" font-size="10" fill="#1a1a2e">B.S. Computer Science</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.7s" dur=".4s" fill="freeze"/>
-<text x="486" y="272" font-family="'Courier New',monospace" font-size="11" fill="#E40000">email</text>
-<text x="610" y="272" font-family="'Courier New',monospace" font-size="11" fill="#00AA00">▶</text>
-<text x="626" y="272" font-family="'Courier New',monospace" font-size="11" fill="#0F172A">jomerignacio04@gmail.com</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.2s" dur=".5s" fill="freeze"/>
+<text x="486" y="236" font-family="'Courier New',monospace" font-size="10" fill="#7a6050">focus   </text>
+<text x="590" y="236" font-family="'Courier New',monospace" font-size="10" fill="#2a6040">▶</text>
+<text x="606" y="236" font-family="'Courier New',monospace" font-size="10" fill="#1a1a2e">Building with AI x Web</text>
 </g>
-<rect x="486" y="284" width="650" height="2" fill="#E40000" opacity=".4"/>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2s" dur=".4s" fill="freeze"/>
-<text x="486" y="310" font-family="'Courier New',monospace" font-size="10" letter-spacing="3" fill="#E40000">— POWER-UPS —</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.6s" dur=".5s" fill="freeze"/>
+<text x="486" y="256" font-family="'Courier New',monospace" font-size="10" fill="#7a6050">email   </text>
+<text x="590" y="256" font-family="'Courier New',monospace" font-size="10" fill="#2a6040">▶</text>
+<text x="606" y="256" font-family="'Courier New',monospace" font-size="10" fill="#1a1a2e">jomerignacio04@gmail.com</text>
 </g>
-<!-- Tech pills light -->
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.2s" dur=".3s" fill="freeze"/>
-<rect x="486" y="322" width="68" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="520" y="339" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">React</text>
+<rect x="486" y="268" width="640" height="2" fill="#8b2020" opacity=".3"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.9s" dur=".4s" fill="freeze"/>
+<text x="486" y="292" font-family="'Courier New',monospace" font-size="9" letter-spacing="3" fill="#8b2020">&#x2014; POWER-UPS &#x2014;</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.3s" dur=".3s" fill="freeze"/>
-<rect x="562" y="322" width="76" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="600" y="339" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">Next.js</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.1s" dur=".3s" fill="freeze"/>
+<rect x="486" y="304" width="66" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="519" y="320" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">React</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.4s" dur=".3s" fill="freeze"/>
-<rect x="646" y="322" width="76" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="684" y="339" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">Node.js</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.18s" dur=".3s" fill="freeze"/>
+<rect x="560" y="304" width="74" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="597" y="320" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">Next.js</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.26s" dur=".3s" fill="freeze"/>
+<rect x="642" y="304" width="74" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="679" y="320" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">Node.js</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.34s" dur=".3s" fill="freeze"/>
+<rect x="724" y="304" width="92" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="770" y="320" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">TypeScript</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.42s" dur=".3s" fill="freeze"/>
+<rect x="824" y="304" width="78" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="863" y="320" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">Tailwind</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.5s" dur=".3s" fill="freeze"/>
-<rect x="730" y="322" width="96" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="778" y="339" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">TypeScript</text>
+<rect x="910" y="304" width="64" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="942" y="320" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">Python</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.6s" dur=".3s" fill="freeze"/>
-<rect x="834" y="322" width="82" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="875" y="339" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">Tailwind</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.58s" dur=".3s" fill="freeze"/>
+<rect x="486" y="336" width="36" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="504" y="352" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">C#</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.7s" dur=".3s" fill="freeze"/>
-<rect x="924" y="322" width="66" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="957" y="339" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">Python</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.66s" dur=".3s" fill="freeze"/>
+<rect x="530" y="336" width="78" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="569" y="352" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">supabase</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.8s" dur=".3s" fill="freeze"/>
-<rect x="486" y="358" width="38" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="505" y="375" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">C#</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.74s" dur=".3s" fill="freeze"/>
+<rect x="616" y="336" width="76" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="654" y="352" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">firebase</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.82s" dur=".3s" fill="freeze"/>
+<rect x="700" y="336" width="52" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="726" y="352" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">AWS</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.9s" dur=".3s" fill="freeze"/>
-<rect x="532" y="358" width="82" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="573" y="375" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">supabase</text>
+<rect x="760" y="336" width="48" height="24" fill="#e8e0d0" stroke="#8b6030" stroke-width="2" rx="1"/>
+<text x="784" y="352" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#2a1a0e">Git</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.0s" dur=".3s" fill="freeze"/>
-<rect x="622" y="358" width="80" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="662" y="375" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">firebase</text>
+<rect x="486" y="370" width="640" height="2" fill="#8b2020" opacity=".25"/>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.1s" dur=".4s" fill="freeze"/>
+<text x="486" y="394" font-family="'Courier New',monospace" font-size="9" letter-spacing="3" fill="#8b2020">&#x2014; HIGH SCORES &#x2014;</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.1s" dur=".3s" fill="freeze"/>
-<rect x="710" y="358" width="56" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="738" y="375" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">AWS</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.3s" dur=".4s" fill="freeze"/>
+<text x="486" y="416" font-family="'Courier New',monospace" font-size="9" fill="#7a6050">COMMITS</text>
+<rect x="578" y="405" width="190" height="12" fill="#d0c8b8" rx="1"/>
+<rect x="578" y="405" width="152" height="12" fill="#8b2020" rx="1"/>
+<text x="776" y="416" font-family="'Courier New',monospace" font-size="9" fill="#8b6030">★★★★☆</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.2s" dur=".3s" fill="freeze"/>
-<rect x="774" y="358" width="52" height="26" fill="#000080" stroke="#E40000" stroke-width="2"/>
-<text x="800" y="375" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="white">Git</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.5s" dur=".4s" fill="freeze"/>
+<text x="486" y="436" font-family="'Courier New',monospace" font-size="9" fill="#7a6050">REPOS  </text>
+<rect x="578" y="425" width="190" height="12" fill="#d0c8b8" rx="1"/>
+<rect x="578" y="425" width="114" height="12" fill="#2a4080" rx="1"/>
+<text x="776" y="436" font-family="'Courier New',monospace" font-size="9" fill="#8b6030">★★★☆☆</text>
 </g>
-<rect x="486" y="396" width="650" height="2" fill="#E40000" opacity=".4"/>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.4s" dur=".4s" fill="freeze"/>
-<text x="486" y="422" font-family="'Courier New',monospace" font-size="10" letter-spacing="3" fill="#E40000">— HIGH SCORES —</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.7s" dur=".4s" fill="freeze"/>
+<text x="486" y="456" font-family="'Courier New',monospace" font-size="9" fill="#7a6050">STREAK </text>
+<rect x="578" y="445" width="190" height="12" fill="#d0c8b8" rx="1"/>
+<rect x="578" y="445" width="171" height="12" fill="#2a6040" rx="1"/>
+<text x="776" y="456" font-family="'Courier New',monospace" font-size="9" fill="#8b6030">★★★★★</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.6s" dur=".4s" fill="freeze"/>
-<text x="486" y="446" font-family="'Courier New',monospace" font-size="10" fill="#E40000">COMMITS</text>
-<rect x="600" y="434" width="200" height="14" fill="#ddd"/>
-<rect x="600" y="434" width="160" height="14" fill="#E40000"/>
-<text x="808" y="446" font-family="'Courier New',monospace" font-size="10" fill="#000080">★★★★☆</text>
-</g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.8s" dur=".4s" fill="freeze"/>
-<text x="486" y="468" font-family="'Courier New',monospace" font-size="10" fill="#E40000">REPOS  </text>
-<rect x="600" y="456" width="200" height="14" fill="#ddd"/>
-<rect x="600" y="456" width="120" height="14" fill="#4444FF"/>
-<text x="808" y="468" font-family="'Courier New',monospace" font-size="10" fill="#000080">★★★☆☆</text>
-</g>
-<g opacity="0"><animate attributeName="opacity" values="0;1" begin="4.0s" dur=".4s" fill="freeze"/>
-<text x="486" y="490" font-family="'Courier New',monospace" font-size="10" fill="#E40000">STREAK </text>
-<rect x="600" y="478" width="200" height="14" fill="#ddd"/>
-<rect x="600" y="478" width="180" height="14" fill="#00AA00"/>
-<text x="808" y="490" font-family="'Courier New',monospace" font-size="10" fill="#000080">★★★★★</text>
-</g>
-<rect x="486" y="502" width="650" height="2" fill="#E40000" opacity=".4"/>
-<text x="820" y="530" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#E40000" letter-spacing="2">PRESS START TO COLLABORATE</text>
-<!-- walking goomba -->
-<g><animateTransform attributeName="transform" type="translate" values="700 0;-100 0" dur="8s" repeatCount="indefinite"/>
-<rect x="1050" y="530" width="28" height="16" fill="#C85000"/>
-<rect x="1046" y="522" width="36" height="12" fill="#C85000"/>
-<rect x="1042" y="518" width="44" height="8" fill="#A03000"/>
-<rect x="1048" y="526" width="8" height="6" fill="white"/>
-<rect x="1068" y="526" width="8" height="6" fill="white"/>
-<rect x="1050" y="528" width="4" height="4" fill="black"/>
-<rect x="1070" y="528" width="4" height="4" fill="black"/>
-<rect x="1044" y="538" width="10" height="8" fill="#A03000"/>
-<rect x="1070" y="538" width="10" height="8" fill="#A03000"/>
+<rect x="486" y="468" width="640" height="2" fill="#8b2020" opacity=".25"/>
+<text x="810" y="498" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8b2020" letter-spacing="1"><animate attributeName="opacity" values="1;0;1" dur="1.4s" begin="0s" repeatCount="indefinite"/>PRESS START TO COLLABORATE</text>
+<g><animateTransform attributeName="transform" type="translate" values="660 0;-80 0" dur="10s" repeatCount="indefinite"/>
+<rect x="1000" y="530" width="26" height="14" fill="#5a3010"/>
+<rect x="996"  y="522" width="34" height="12" fill="#5a3010"/>
+<rect x="992"  y="518" width="42" height="8"  fill="#3d2010"/>
+<rect x="998"  y="524" width="7"  height="5"  fill="#d4b890" opacity=".8"/>
+<rect x="1017" y="524" width="7"  height="5"  fill="#d4b890" opacity=".8"/>
+<rect x="1000" y="526" width="4"  height="4"  fill="#1a1a2e"/>
+<rect x="1019" y="526" width="4"  height="4"  fill="#1a1a2e"/>
+<rect x="994"  y="536" width="9"  height="8"  fill="#3d2010"/>
+<rect x="1019" y="536" width="9"  height="8"  fill="#3d2010"/>
 </g>
 </g>
 </svg>
