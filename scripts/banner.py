@@ -299,6 +299,126 @@ def palette():
     return f'<g>{show(8.5, 10.0, 0.08)}{s}</g>'
 
 
+# ---------------------------------------------------------------- 8-bit characters
+def sprite(rows, palette, x, y, px):
+    """Draw a multi-colour bitmap: one merged path per colour."""
+    width = max(len(r) for r in rows)
+    rows = [r.ljust(width, ".") for r in rows]
+    return "".join(f'<path d="{bitmap_path(rows, x, y, px, on=k)}" fill="{c}"/>'
+                   for k, c in palette.items() if any(k in r for r in rows))
+
+
+SNORLAX = [
+    "....OO..........OO....",
+    "...OBBO........OBBO...",
+    "...OBBBOOOOOOOOBBBO...",
+    "..OBBBBBBBBBBBBBBBBO..",
+    "..OBBBCCCCCCCCCCBBBO..",
+    "..OBBCCOOCCCCOOCCBBO..",
+    "..OBBCCCCCCCCCCCCBBO..",
+    "..OBBCCCCOOOOCCCCBBO..",
+    ".OBBBBCCCCCCCCCCBBBBO.",
+    "OBBBBBBBCCCCCCBBBBBBBO",
+    "OBBOBBCCCCCCCCCCBBOBBO",
+    "OBBOBCCCCCCCCCCCCBOBBO",
+    "OWWOBCCCCCCCCCCCCBOWWO",
+    ".OOOBCCCCCCCCCCCCBOOO.",
+    "...OBCCCCCCCCCCCCBO...",
+    "..OBBcCCCCCCCCCCcBBO..",
+    ".OCCCOBBBBBBBBBBOCCCO.",
+    ".OCWCOOOOOOOOOOOOCWCO.",
+    "..OOO............OOO..",
+]
+SNORLAX_PAL = {"O": "#163845", "B": "#2e6c80", "C": "#efe0bf", "c": "#d6c39c", "W": "#f2f2f2"}
+
+_CHAR_BODY = [
+    "..OYYRRRRRRRRROOOOOO.....",
+    "...OOYRRRRRRRRRO.........",
+    ".....OYYYYRRRRRRO........",
+    ".....OYYYYYRRRRRRO.......",
+    "......OYYYYRRRRRRRO......",
+    ".......OYYYRRRRRRRRO..OO.",
+    "........OORRRRRRRRRROOFFO",
+    ".........OrRRO.OrRRRRROFYFO",
+    "........OWOO...OWOOOOO.OFO",
+]
+CHARIZARD_UP = [
+    "..............OO.........",
+    ".............OwwO.....OO.",
+    "............OwWWwO..OwwO.",
+    "...OOO.....OwWWWwO.OwWwO.",
+    "..OrRRO....OwWWWWwOwWWwO.",
+    ".ORERRRO...OwWWWWWwWWWwO.",
+    "ORRRRRRRO..OwWWWWWWWWwO..",
+    "ORRRRRRRRO.OwwWWWWWWwO...",
+    ".OOYRRRRRROOOwwwwwwwO....",
+] + _CHAR_BODY
+CHARIZARD_DOWN = [
+    ".........................",
+    ".........................",
+    ".........................",
+    "...OOO...................",
+    "..OrRRO..................",
+    ".ORERRRO....OOOOOOOOOO...",
+    "ORRRRRRRO..OwWWWWWWWWwOO.",
+    "ORRRRRRRRO.OwwWWWWWWWWwwO",
+    ".OOYRRRRRROOOwwwwwwwwwwO.",
+] + _CHAR_BODY
+CHARIZARD_PAL = {"O": "#3a1408", "R": "#f08030", "r": "#c85a1c", "Y": "#f8d878", "W": "#3a9aa8",
+                 "w": "#25606c", "E": "#f2f2f2", "F": "#ff4d2e"}
+
+FIRE_A = [
+    "......YYooFF",
+    "...YYYYYooooFF",
+    "YYYYYYYYYooooFF",
+    "...YYYYYooooFF",
+    "......YYooFF",
+]
+FIRE_B = [
+    ".........ooFF",
+    "....YYYYoooFFF",
+    ".YYYYYYYYYoooFF",
+    "YYYYYYYYoooFF",
+    ".....YYoooF",
+]
+FIRE_PAL = {"Y": "#ff4d2e", "o": "#ff9f1c", "F": "#ffe066"}  # red tip, yellow at the mouth
+
+ZZZ = ["#####", "...#.", "..#..", ".#...", "#####"]
+
+
+def snorlax(t_in):
+    px, x, y = 4, 474, 256
+    body = sprite(SNORLAX, SNORLAX_PAL, x, y, px)
+    zs = []
+    for i, (dx, size, delay) in enumerate([(0, 2, 0.0), (14, 3, 1.0), (32, 4, 2.0)]):
+        zx, zy = x + 78 + dx, y - 6 - i * 10
+        zs.append(
+            f'<g opacity="0"><path d="{bitmap_path(ZZZ, zx, zy, size)}" fill="{WHITE}"/>'
+            f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.2;.7;1" dur="3s" begin="{delay}s" repeatCount="indefinite"/>'
+            f'<animateTransform attributeName="transform" type="translate" values="0 8;0 -10" dur="3s" begin="{delay}s" repeatCount="indefinite"/></g>')
+    breathe = ('<animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" '
+               'dur="3s" repeatCount="indefinite"/>')
+    drop = move([(t_in, (0, -120)), (t_in + 0.6, (0, 0))])
+    return f'<g>{show(t_in, None, 0.1)}<g>{drop}<g>{breathe}{body}</g>{"".join(zs)}</g></g>'
+
+
+def charizard():
+    px = 3
+    up = sprite(CHARIZARD_UP, CHARIZARD_PAL, 0, 0, px)
+    down = sprite(CHARIZARD_DOWN, CHARIZARD_PAL, 0, 0, px)
+    flap = f'<g class="fa">{up}</g><g class="fb">{down}</g>'
+    # fire comes out of the mouth (left side, row 7) and flickers between two frames
+    fx = -len(FIRE_A[2]) * px
+    fire = (f'<g>{show(14.0, 15.6, 0.05)}'
+            f'<g class="fa">{sprite(FIRE_A, FIRE_PAL, fx, 15, px)}</g>'
+            f'<g class="fb">{sprite(FIRE_B, FIRE_PAL, fx, 15, px)}</g></g>')
+    path = move([(11.5, (920, 30)), (13.0, (500, 56)), (14.0, (492, 60)), (15.6, (492, 60)),
+                 (17.0, (520, 44)), (18.4, (500, 52)), (20.0, (-120, -10))])
+    bob = ('<animateTransform attributeName="transform" type="translate" values="0 0;0 4;0 0" '
+           'dur="1s" repeatCount="indefinite"/>')
+    return f'<g>{show(11.5, 20.0, 0.05)}<g>{path}<g>{bob}{fire}{flap}</g></g></g>'
+
+
 def build():
     body = [rulers(), canvas()]
 
@@ -333,6 +453,8 @@ def build():
     # right side
     body.append(monitor())
     body.append(pills())
+    body.append(snorlax(6.6))
+    body.append(charizard())
 
     swarm = [
         cursor("JOMER", RED, [(0.3, -20, 40), (0.6, 56, 44), (1.1, 224, 68), (2.4, 300, 36),
@@ -360,7 +482,8 @@ def build():
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
         f'shape-rendering="crispEdges" role="img" aria-label="Jomer Ignacio, full-stack developer: web, '
         f'mobile, backend and AI. Open to work and open for freelance. A swarm of design cursors builds this banner live.">\n'
-        f'<style>@keyframes bl{{50%{{opacity:0}}}}.bl{{animation:bl 1s steps(1) infinite}}</style>\n'
+        f'<style>@keyframes bl{{50%{{opacity:0}}}}.bl{{animation:bl 1s steps(1) infinite}}'
+        f'.fa{{animation:bl .4s steps(1) infinite}}.fb{{animation:bl .4s steps(1) -.2s infinite}}</style>\n'
         f'<rect width="{W}" height="{H}" fill="{BG}"/>\n'
         f'<defs><pattern id="gr" width="16" height="16" patternUnits="userSpaceOnUse">'
         f'<rect width="2" height="2" fill="#fff" opacity=".06"/></pattern></defs>\n'
@@ -373,43 +496,5 @@ def build():
     print(f"wrote {out} ({len(svg) // 1024} KB)")
 
 
-def build_stack():
-    sw, sh = 880, 236
-    cols = [
-        ("FRONTEND", RED, ["NEXT.JS", "REACT", "TYPESCRIPT", "TAILWIND"]),
-        ("MOBILE", YELLOW, ["REACT NATIVE", "EXPO"]),
-        ("BACKEND", PURPLE, ["NODE", "EXPRESS", "PYTHON", "FASTAPI"]),
-        ("DATABASE", CYAN, ["POSTGRESQL", "SUPABASE", "SQLITE", "FIREBASE"]),
-        ("AI", PINK, ["GEMINI", "LANGGRAPH"]),
-    ]
-    cw, gap, x0, y0 = 160, 9, 22, 64
-    parts = [f'<rect width="{sw}" height="{sh}" fill="{BG}"/>',
-             f'<rect x="8" y="8" width="{sw - 16}" height="{sh - 16}" fill="#101013"/>',
-             f'<rect x="8" y="8" width="{sw - 16}" height="{sh - 16}" fill="url(#gr)"/>',
-             f'<rect x="8" y="8" width="{sw - 16}" height="{sh - 16}" fill="none" stroke="#2a2a30" stroke-width="2"/>',
-             f'<path d="{text_path("WHAT I BUILD", 24, 26, 2)}" fill="{GRAY}"/>',
-             f'<rect class="bl" x="{24 + 12 * 12}" y="26" width="10" height="14" fill="{RED}"/>']
-    for i, (title, col, items) in enumerate(cols):
-        x = x0 + i * (cw + gap)
-        parts.append(f'<rect x="{x}" y="{y0}" width="{cw}" height="150" fill="#18181d" stroke="#2a2a30" stroke-width="2"/>')
-        parts.append(f'<rect x="{x}" y="{y0}" width="{cw}" height="4" fill="{col}"/>')
-        parts.append(f'<rect x="{x + 10}" y="{y0 + 18}" width="8" height="8" fill="{col}"/>')
-        parts.append(f'<path d="{text_path(title, x + 26, y0 + 16, 2)}" fill="{WHITE}"/>')
-        for j, it in enumerate(items):
-            parts.append(f'<path d="{text_path(it, x + 10, y0 + 46 + j * 24, 2)}" fill="{GRAY}"/>')
-    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{sw}" height="{sh}" viewBox="0 0 {sw} {sh}" '
-           f'shape-rendering="crispEdges" role="img" aria-label="What I build: frontend with Next.js, React, '
-           f'TypeScript and Tailwind; mobile with React Native and Expo; backend with Node, Express, Python and '
-           f'FastAPI; databases with PostgreSQL, Supabase, SQLite and Firebase; AI with Gemini and LangGraph.">\n'
-           f'<style>@keyframes bl{{50%{{opacity:0}}}}.bl{{animation:bl 1s steps(1) infinite}}</style>\n'
-           f'<defs><pattern id="gr" width="16" height="16" patternUnits="userSpaceOnUse">'
-           f'<rect width="2" height="2" fill="#fff" opacity=".06"/></pattern></defs>\n'
-           + "\n".join(parts) + "\n</svg>\n")
-    out = Path(__file__).resolve().parent.parent / "assets" / "stack.svg"
-    out.write_text(svg, encoding="utf-8")
-    print(f"wrote {out} ({len(svg) // 1024} KB)")
-
-
 if __name__ == "__main__":
     build()
-    build_stack()
