@@ -453,8 +453,9 @@ def build():
     # right side
     body.append(monitor())
     body.append(pills())
-    body.append(snorlax(0.6))
-    body.append(charizard())
+    # Pokemon are switched off for now. Uncomment to bring them back.
+    # body.append(snorlax(0.6))
+    # body.append(charizard())
 
     swarm = [
         cursor("JOMER", RED, [(0.3, -20, 40), (0.6, 56, 44), (1.1, 224, 68), (2.4, 300, 36),
