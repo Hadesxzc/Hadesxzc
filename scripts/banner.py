@@ -13,10 +13,10 @@ BG = "#0d0d0f"
 WHITE = "#f2f2f2"
 GRAY = "#8a8a93"
 DIM = "#5a5a63"
-RED = "#ef4444"
+RED = "#8b5cf6"  # main accent (violet)
 CYAN = "#22d3ee"
 YELLOW = "#facc15"
-PURPLE = "#a78bfa"
+PURPLE = "#60a5fa"
 GREEN = "#4ade80"
 PINK = "#f472b6"
 
@@ -329,7 +329,7 @@ SNORLAX = [
     ".OCWCOOOOOOOOOOOOCWCO.",
     "..OOO............OOO..",
 ]
-SNORLAX_PAL = {"O": "#163845", "B": "#2e6c80", "C": "#efe0bf", "c": "#d6c39c", "W": "#f2f2f2"}
+SNORLAX_PAL = {"O": "#163845", "B": "#3d8aa3", "C": "#efe0bf", "c": "#d6c39c", "W": "#f2f2f2"}
 
 _CHAR_BODY = [
     "..OYYRRRRRRRRROOOOOO.....",
@@ -387,11 +387,11 @@ ZZZ = ["#####", "...#.", "..#..", ".#...", "#####"]
 
 
 def snorlax(t_in):
-    px, x, y = 4, 474, 256
+    px, x, y = 5, 478, 237
     body = sprite(SNORLAX, SNORLAX_PAL, x, y, px)
     zs = []
     for i, (dx, size, delay) in enumerate([(0, 2, 0.0), (14, 3, 1.0), (32, 4, 2.0)]):
-        zx, zy = x + 78 + dx, y - 6 - i * 10
+        zx, zy = x + 80 + dx, y - 4 - i * 12
         zs.append(
             f'<g opacity="0"><path d="{bitmap_path(ZZZ, zx, zy, size)}" fill="{WHITE}"/>'
             f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.2;.7;1" dur="3s" begin="{delay}s" repeatCount="indefinite"/>'
@@ -403,20 +403,20 @@ def snorlax(t_in):
 
 
 def charizard():
-    px = 3
+    px = 4
     up = sprite(CHARIZARD_UP, CHARIZARD_PAL, 0, 0, px)
     down = sprite(CHARIZARD_DOWN, CHARIZARD_PAL, 0, 0, px)
     flap = f'<g class="fa">{up}</g><g class="fb">{down}</g>'
     # fire comes out of the mouth (left side, row 7) and flickers between two frames
     fx = -len(FIRE_A[2]) * px
-    fire = (f'<g>{show(14.0, 15.6, 0.05)}'
-            f'<g class="fa">{sprite(FIRE_A, FIRE_PAL, fx, 15, px)}</g>'
-            f'<g class="fb">{sprite(FIRE_B, FIRE_PAL, fx, 15, px)}</g></g>')
-    path = move([(11.5, (920, 30)), (13.0, (500, 56)), (14.0, (492, 60)), (15.6, (492, 60)),
-                 (17.0, (520, 44)), (18.4, (500, 52)), (20.0, (-120, -10))])
+    fire = (f'<g>{show(9.4, 11.0, 0.05)}'
+            f'<g class="fa">{sprite(FIRE_A, FIRE_PAL, fx, 20, px)}</g>'
+            f'<g class="fb">{sprite(FIRE_B, FIRE_PAL, fx, 20, px)}</g></g>')
+    path = move([(3.0, (920, 20)), (4.6, (500, 50)), (9.4, (492, 56)), (11.0, (492, 56)),
+                 (14.0, (510, 40)), (17.5, (496, 52)), (20.4, (-140, -20))])
     bob = ('<animateTransform attributeName="transform" type="translate" values="0 0;0 4;0 0" '
            'dur="1s" repeatCount="indefinite"/>')
-    return f'<g>{show(11.5, 20.0, 0.05)}<g>{path}<g>{bob}{fire}{flap}</g></g></g>'
+    return f'<g>{show(3.0, 20.4, 0.05)}<g>{path}<g>{bob}{fire}{flap}</g></g></g>'
 
 
 def build():
@@ -453,7 +453,7 @@ def build():
     # right side
     body.append(monitor())
     body.append(pills())
-    body.append(snorlax(6.6))
+    body.append(snorlax(0.6))
     body.append(charizard())
 
     swarm = [
